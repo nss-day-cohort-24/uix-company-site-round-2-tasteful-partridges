@@ -1,0 +1,70 @@
+
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding-top:5px;
+    overflow: hidden;
+    text-align:center;
+
+
+}
+
+.nav-bar > li {
+
+    display:inline;
+
+}
+
+.nav-bar > li a {
+    display: inline;
+    color: black;
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+    text-align:center;
+    float:left;
+
+}
+
+li a:hover {
+    background-color: lightgray;
+}
+
+.logo{
+display:inline;
+float:left;
+}
+
+.foot-bar{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align:center;
+    background-color:lightgray;
+
+
+    }
+
+.foot-bar > li {
+
+    display:inline;
+
+    }
+
+.foot-bar > li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align:center;
+
+    }
+
+.copy{
+text-align:center;
+font-style:italic;
+background-color:lightgray;
+}
