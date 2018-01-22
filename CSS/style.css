@@ -27,7 +27,8 @@
 }
 
 li a:hover {
-    background-color: lightgray;
+    background-color: darkgray;
+    padding-bottom:7px;
 }
 
 .logo{
@@ -68,3 +69,13 @@ text-align:center;
 font-style:italic;
 background-color:lightgray;
 }
+
+
+/*colors
+10B9D2 - dark blue
+79CCC9 - light blue
+4B8584 - darkest blue
+8D8984 - dark gray
+D9DEDE - light gray
+BBC946 - light green
+7A9C3D - dark green
