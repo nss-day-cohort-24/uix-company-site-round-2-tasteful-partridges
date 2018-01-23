@@ -26,7 +26,7 @@ var team = [dan, ben, haden, taylor];
 
 var content = "";
 
-for ( var i=0; i < 3; i += 1 ) {
+for ( var i=0; i <= 3; i += 1 ) {
     content += `<div class="cards">
                 <img src="${team[i].URL}">
                 <h3>${team[i].name}</h3>
