@@ -7,7 +7,8 @@
     padding-top:5px;
     overflow: hidden;
     text-align:center;
-
+    background-color:#8D8984;
+    
 
 }
 
@@ -25,6 +26,7 @@
     text-decoration: none;
     text-align:center;
     float:left;
+    color:#79CCC9;
 
 }
 
@@ -46,7 +48,7 @@ float:left;
     overflow: hidden;
     text-align:center;
     background-color:lightgray;
-
+    background-color:#8D8984;
 
     }
 
@@ -63,13 +65,15 @@ float:left;
     padding: 14px 16px;
     text-decoration: none;
     text-align:center;
-
+    color:#79CCC9;
     }
 
 .copy{
 text-align:center;
 font-style:italic;
-background-color:lightgray;
+background-color: #8D8984;
+color:#79CCC9;
+
 }
 
 
@@ -79,6 +83,7 @@ background-color:lightgray;
 h1,h2,h3,h4,h5 {
     font-family: 'Montserrat', sans-serif;
     color: #8D8984;
+    text-align:center;
 }
 
 body {
@@ -126,26 +131,41 @@ form{
     text-align:center;
     padding-bottom:10px;
 
+
 }
 
 input{
     margin-top:10px;
     margin-bottom:10px;
-    background-color:
+    background-color:#D9DEDE;
+    color:#4B8584;
+    font-family: 'Merriweather', serif;
 
 }
 textarea{
     height:100px;
     width:500px;
+    background-color:#D9DEDE;
+    color:#4B8584;
+    font-family: 'Merriweather', serif;
 }
+
+
+/*colors
+10B9D2 - dark blue
 
 /** colors
 I0B9D2 - dark blue
+
 79CCC9 - light blue
 4B8584 - darkest blue
 8D8984 - dark gray
 D9DEDE - light gray
 BBC946 - light green
+
+7A9C3D - dark green
+*/
+
 7A9C3D - dark green **/
 
 /** Cart Page **/
@@ -181,5 +201,6 @@ button.css3button {
 		0px -1px 0px rgba(000,000,000,0.2),
 		0px 1px 0px rgba(153,147,153,1);
 }
+
 
 
