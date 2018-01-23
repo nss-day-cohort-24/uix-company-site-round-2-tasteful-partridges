@@ -144,9 +144,13 @@ form{
 input{
     margin-top:10px;
     margin-bottom:10px;
+<<<<<<< HEAD
+    background-color: 
+=======
     background-color:#D9DEDE;
     color:#4B8584;
     font-family: 'Merriweather', serif;
+>>>>>>> 04ed8197e53c7b04840eee89c76b1a4145f3b427
 
 }
 textarea{
@@ -157,6 +161,40 @@ textarea{
     font-family: 'Merriweather', serif;
 }
 
+<<<<<<< HEAD
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,8D8984);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,8D8984);
+}
+
+/* Add some padding inside the card container 
+.productcontainer {
+    padding: 2px 16px;
+}*/
+
+.productflex-container {
+  /* Creating the flex layout */
+  display: flex;
+  padding: 2px 16px;
+  
+  /* Defining flex direction
+   * Another option flex-direction: row; flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Defining the remaining space */
+  justify-content: space-around;
+}
+/*/
+/*colors*/
+/* I0B9D2 - dark blue
+=======
 
 /*colors
 10B9D2 - dark blue
@@ -164,11 +202,15 @@ textarea{
 /** colors
 I0B9D2 - dark blue
 
+>>>>>>> 04ed8197e53c7b04840eee89c76b1a4145f3b427
 79CCC9 - light blue
 4B8584 - darkest blue
 8D8984 - dark gray
 D9DEDE - light gray
 BBC946 - light green
+<<<<<<< HEAD
+7A9C3D - dark green */
+=======
 
 7A9C3D - dark green
 */
@@ -210,4 +252,5 @@ button.css3button {
 }
 
 
+>>>>>>> 04ed8197e53c7b04840eee89c76b1a4145f3b427
 
