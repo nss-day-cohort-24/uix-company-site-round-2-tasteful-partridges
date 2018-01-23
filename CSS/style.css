@@ -134,6 +134,12 @@ ul {
 
 }
 
+.contact > h2 {
+    padding: 30px;
+    background-color:#BBC946;
+    box-shadow:  0 5px 5px 0 rgba(32,32,32,.65);
+}
+
 form{
     text-align:center;
     padding-bottom:10px;
@@ -144,6 +150,7 @@ form{
 input{
     margin-top:10px;
     margin-bottom:10px;
+    background-color: 
     background-color:#D9DEDE;
     color:#4B8584;
     font-family: 'Merriweather', serif;
@@ -157,21 +164,38 @@ textarea{
     font-family: 'Merriweather', serif;
 }
 
-.productivity{
-    display:flex;
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,8D8984);
+    transition: 0.3s;
 }
 
-
-.column{
-    width:500px;
-    padding-left:50px;
-    padding-right:50px;
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,8D8984);
 }
- 
-.reviews{
 
-    font-style:italic;
+/* Add some padding inside the card container 
+.productcontainer {
+    padding: 2px 16px;
+}*/
+
+.productflex-container {
+  /* Creating the flex layout */
+  display: flex;
+  padding: 2px 16px;
+  
+  /* Defining flex direction
+   * Another option flex-direction: row; flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Defining the remaining space */
+  justify-content: space-around;
 }
+/*/
+/*colors*/
+/* I0B9D2 - dark blue
 
 /*colors
 10B9D2 - dark blue
@@ -184,6 +208,7 @@ I0B9D2 - dark blue
 8D8984 - dark gray
 D9DEDE - light gray
 BBC946 - light green
+7A9C3D - dark green */
 
 7A9C3D - dark green
 */
