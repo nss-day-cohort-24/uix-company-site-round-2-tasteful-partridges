@@ -131,7 +131,7 @@ form{
 input{
     margin-top:10px;
     margin-bottom:10px;
-    background-color:
+    background-color: 
 
 }
 textarea{
@@ -139,12 +139,42 @@ textarea{
     width:500px;
 }
 
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,8D8984);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,8D8984);
+}
+
+/* Add some padding inside the card container 
+.productcontainer {
+    padding: 2px 16px;
+}*/
+
+.productflex-container {
+  /* Creating the flex layout */
+  display: flex;
+  padding: 2px 16px;
+  
+  /* Defining flex direction
+   * Another option flex-direction: row; flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Defining the remaining space */
+  justify-content: space-around;
+}
+/*/
 /*colors*/
-I0B9D2 - dark blue
+/* I0B9D2 - dark blue
 79CCC9 - light blue
 4B8584 - darkest blue
 8D8984 - dark gray
 D9DEDE - light gray
 BBC946 - light green
-7A9C3D - dark green
+7A9C3D - dark green */
 
