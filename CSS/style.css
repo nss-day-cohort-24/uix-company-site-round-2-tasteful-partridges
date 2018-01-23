@@ -72,8 +72,54 @@ font-style:italic;
 background-color:lightgray;
 }
 
+
+
+/**Styles Template**/
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: #8D8984;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    color: #8D8984;
+}
+
+footer {
+    font-family: 'Oswald', sans-serif;
+    color: #8D8984;
+}
+
+h1 {
+    font-size: 2em;
+}
+
 h2 {
-text-align:center;
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+p {
+    margin: ;
+    padding: ;
+}
+
+ul {
+    margin: ;
+    padding: ;
+
 }
 
 form{
