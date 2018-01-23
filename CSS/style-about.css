@@ -1,12 +1,30 @@
-.aboutTeam img {
+.cards img {
     margin: auto;
     max-height: 250px;
     max-width: 250px;
     overflow: hidden;
     display: block;
+    padding: 10px;
 }
 
-.aboutTeam {
+.cards p {
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.cards h3 {
+    background-color: #79CCC9; 
+    box-shadow:  0 5px 5px 0 rgba(32,32,32,.65);
+    width: 25%;
+    margin: auto;
+    padding: 10px;
+}
+
+.desc {
     text-align: center;
     margin-left: 300px;
     margin-right: 300px;
@@ -14,7 +32,13 @@
     margin-bottom: 50px;
 }
 
-.aboutCompany {
+.desc h2 {
+    background-color:#79CCC9;
+    box-shadow:  0 5px 5px 0 rgba(32,32,32,.65);
+    padding: 10px;
+}
+
+.aboutCompany h1 {
     /* display: flex;
     margin: auto;
     width: 50%; 
@@ -23,9 +47,11 @@
     margin-bottom: 100px;
     width: 80%; */
     padding: 30px;
+    background-color:#BBC946;
+    box-shadow:  0 5px 5px 0 rgba(32,32,32,.65);
 }
 
-.desc {
+.holder{
     /* display: flex;
     margin: auto;
     width: 35%;
