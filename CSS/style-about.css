@@ -1,0 +1,46 @@
+.aboutTeam img {
+    margin: auto;
+    max-height: 250px;
+    max-width: 250px;
+    overflow: hidden;
+    display: block;
+}
+
+.aboutTeam {
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.aboutCompany {
+    /* display: flex;
+    margin: auto;
+    width: 50%; 
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    width: 80%; */
+    padding: 30px;
+}
+
+.desc {
+    /* display: flex;
+    margin: auto;
+    width: 35%;
+    position: absolute;
+    padding: 50px; */
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.aboutContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.teamHeader {
+    padding: 50px;
+}
