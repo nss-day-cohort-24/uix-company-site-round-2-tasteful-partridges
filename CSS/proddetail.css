@@ -1,0 +1,17 @@
+h2{
+    padding: 30px;
+    background-color:#BBC946;
+    box-shadow:  0 5px 5px 0 rgba(32,32,32,.65);
+
+}
+
+h3{background-color: #79CCC9; 
+box-shadow:  0 5px 5px 0 rgba(32,32,32,.65);
+width: 25%;
+padding: 10px;
+margin-bottom:30px;
+}
+
+.productivity{
+    display:flex;
+}
