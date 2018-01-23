@@ -1,0 +1,25 @@
+.aboutTeam img {
+    margin-left: 50px;
+    margin-right: 50px;
+    max-height: 250px;
+    max-width: 250px;
+    overflow: hidden;
+}
+
+.aboutCompany {
+    /* display: flex;
+    margin: auto;
+    width: 50%; */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    width: 80%;
+}
+
+.desc {
+    display: flex;
+    margin: auto;
+    width: 35%;
+    position: absolute;
+    padding: 50px;
+}
