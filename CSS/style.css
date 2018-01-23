@@ -68,3 +68,41 @@ text-align:center;
 font-style:italic;
 background-color:lightgray;
 }
+
+
+/** Cart Page **/
+/** Checkout Button **/
+button.css3button {
+	font-family: Montserrat, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #050505;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#ef9138 0%,
+		#ebebeb 5%,
+		#ef9138);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#ef9138),
+		color-stop(0.5, #ebebeb),
+		to(#ef9138));
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	border: 1px solid #949494;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,0.6);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,0.6);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,0.6);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+}
+
+/** End Cart Page **/
