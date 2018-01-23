@@ -30,6 +30,7 @@
     text-align:center;
     float:left;
     color:#79CCC9;
+    font-family: 'Oswald', sans-serif;
 
 
 }
@@ -43,6 +44,7 @@ li a:hover {
 .logo{
 display:inline;
 float:left;
+padding-right:70px;
 }
 /*footer***************/
 .foot-bar{
