@@ -144,13 +144,10 @@ form{
 input{
     margin-top:10px;
     margin-bottom:10px;
-<<<<<<< HEAD
     background-color: 
-=======
     background-color:#D9DEDE;
     color:#4B8584;
     font-family: 'Merriweather', serif;
->>>>>>> 04ed8197e53c7b04840eee89c76b1a4145f3b427
 
 }
 textarea{
@@ -161,7 +158,6 @@ textarea{
     font-family: 'Merriweather', serif;
 }
 
-<<<<<<< HEAD
 .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,8D8984);
@@ -194,7 +190,6 @@ textarea{
 /*/
 /*colors*/
 /* I0B9D2 - dark blue
-=======
 
 /*colors
 10B9D2 - dark blue
@@ -202,15 +197,12 @@ textarea{
 /** colors
 I0B9D2 - dark blue
 
->>>>>>> 04ed8197e53c7b04840eee89c76b1a4145f3b427
 79CCC9 - light blue
 4B8584 - darkest blue
 8D8984 - dark gray
 D9DEDE - light gray
 BBC946 - light green
-<<<<<<< HEAD
 7A9C3D - dark green */
-=======
 
 7A9C3D - dark green
 */
@@ -252,5 +244,4 @@ button.css3button {
 }
 
 
->>>>>>> 04ed8197e53c7b04840eee89c76b1a4145f3b427
 
