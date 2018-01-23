@@ -134,6 +134,7 @@ ul {
 
 }
 
+
 .contact > h2 {
     padding: 30px;
     background-color:#BBC946;
@@ -150,7 +151,6 @@ form{
 input{
     margin-top:10px;
     margin-bottom:10px;
-    background-color: 
     background-color:#D9DEDE;
     color:#4B8584;
     font-family: 'Merriweather', serif;
@@ -260,7 +260,6 @@ button.css3button {
 		0px 1px 0px rgba(153,147,153,1);
 }
 
-
 /** Checkout Page **/
 
 #shipping-address {
@@ -274,5 +273,4 @@ button.css3button {
     padding: 2px;
     border: 1px solid darkgray;
 }
-
 
