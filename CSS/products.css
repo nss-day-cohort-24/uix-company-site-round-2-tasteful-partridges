@@ -1,28 +1,37 @@
 .flex-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
     /* flex-direction: row;
     /* display: inline-flex; */
     -webkit-flex-wrap: wrap;
-    /* flex-wrap: nowrap; */
     /*-webkit-flex-direction: row;  */
     -webkit-justify-content: space-around;
-    justify-content: space-around; 
     
 }
 
+.flex-container img{
+    max-width: 175px;
+
+    }
 .card {
     
-    /* Add shadows to create the "card" effect */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 0 1 24%;
+    flex: 0 1 calc(25% - 1em);
+/* Add shadows to create the "card" effect */
     transition: 0.3s;
     background: white;
-  text-decoration: none;
-  color: #444;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  /* display: flex; */
-  /* height: 30%;*/
-  width: 200px;
-  /* sets up hover state*/
-  /* position: relative;*/
+    text-decoration: none;
+    color: #444;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+/* display: flex; */
+/* height: 30%;*/
+    width: 250px;
+/* sets up hover state*/
+/* position: relative;*/
   top: 0;
   transition: all .1s ease-in;
 } 
@@ -33,10 +42,6 @@
     box-shadow: 0 4px 5px rgba(0,0,0,0.2);
 }
 
-.flex-container img{
-    width: 100px;
-    
-    }
 
 
 
