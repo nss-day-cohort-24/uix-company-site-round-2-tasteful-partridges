@@ -1,8 +1,9 @@
 var mobileapp = {
-            name: "Mobile App - Time Management",
+            name: "Tidy Task",
             description:"Time management to organize your schedule",
             price: "$20.00",
-            URL: "Images/mobileapp.png"
+            URL: "Images/mobileapp.png",
+           
 }
 
 var activistpack = {
