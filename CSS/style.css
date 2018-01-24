@@ -245,7 +245,8 @@ BBC946 - light green
     text-align: center;
     display: inline;
     float: left;
-    margin-left: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
     text-decoration: underline;
     font-style: italic;
 }
@@ -299,7 +300,7 @@ BBC946 - light green
     height: 175px;
     border: 1px solid #8D8984;
     background-color: #D9DEDE;
-    margin 5px;
+    margin: 5px;
 }
 
 .check-text {
