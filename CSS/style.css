@@ -83,8 +83,16 @@ color:#79CCC9;
 
 }
 
-
-
+.checkout h1{
+    padding: 30px;
+    background-color:#BBC946;
+    box-shadow:  0 5px 5px 0 rgba(32,32,32,.65);
+}
+.cart h1{
+    padding: 30px;
+    background-color:#BBC946;
+    box-shadow:  0 5px 5px 0 rgba(32,32,32,.65);
+}
 /**Styles Template**/
 
 h1,h2,h3,h4,h5 {
