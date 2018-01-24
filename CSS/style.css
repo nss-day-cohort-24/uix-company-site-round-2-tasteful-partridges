@@ -226,9 +226,40 @@ BBC946 - light green
 /** Index Page **/
 
 #home-container {
-    max-width: 100%;
-    height: 100%;
-    background-image: url('/img/IDEODesk.jpg');
+    /* max-width: 100%;
+    max-height: auto; */
+    background-image: url('/img/TranspIDEODesk.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 200px;
+    margin-top: -67px;
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+}
+
+#home-container h1 {
+    padding-top: 180px;
+    font-size: 100px;
+}
+
+#home-container h1,h2 {
+    color: #79CCC9;
+}
+
+#slogan h3 {
+    color: #79CCC9;
+    text-align: center;
+    display: inline;
+    float: left;
+    margin-left: 100px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#slogan {
+    margin-left: 165px;
+    margin-top: 40px;
 }
 
 /** Cart Page **/
