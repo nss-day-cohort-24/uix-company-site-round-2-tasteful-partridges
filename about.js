@@ -6,7 +6,7 @@ var dan = {
 
 var ben = {
             name: "Ben",
-            description: "First of our three junior designers and developers at IDEOIndustries, Ben works tirelesly on keeping our products up to date.",
+            description: "First of our three junior designers and developers at IDEOIndustries, Ben works tirelessly on keeping our products up to date.",
             URL: "img/profilepics/ben.jpg"
 }
 
