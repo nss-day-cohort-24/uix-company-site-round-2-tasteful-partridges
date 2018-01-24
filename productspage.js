@@ -60,7 +60,7 @@ var products = [mobileapp, activistpack, virtualassistant, desktopapp, smartspor
 var desc = ""; 
 
 for ( var i = 0; i < 8; i += 1 ) {
-   desc += `<div id="card"><img class="card_img" src="${products[i].URL}"><<br><p>${products[i].name}<br>${products[i].description}<br>${products[i].price}</p></div>`;
+   desc += `<div id="card"><img class="card_img" src="${products[i].URL}"><br><p>${products[i].name}<br>${products[i].description}<br>${products[i].price}</p></div>`;
 }
 
 
