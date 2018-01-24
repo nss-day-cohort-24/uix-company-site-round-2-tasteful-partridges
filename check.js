@@ -1,5 +1,5 @@
 var mobileapp = {
-    name: "Mobile App - Time Management",
+    name: "TidyTask",
     description: "Time management to organize your schedule",
     price: 20.00,
     URL: "/img/proddetail1.png",
