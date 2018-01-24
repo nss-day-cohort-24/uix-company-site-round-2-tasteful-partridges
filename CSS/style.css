@@ -213,6 +213,15 @@ BBC946 - light green
 7A9C3D - dark green
 7A9C3D - dark green **/
 
+
+/** Index Page **/
+
+#home-container {
+    max-width: 100%;
+    height: 100%;
+    background-image: url('/img/IDEODesk.jpg');
+}
+
 /** Cart Page **/
 /** Cart Div Style **/
 
