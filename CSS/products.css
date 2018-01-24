@@ -13,7 +13,6 @@
 .card {
     
     /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,8D8984);
     transition: 0.3s;
     background: white;
   text-decoration: none;
@@ -34,8 +33,8 @@
     box-shadow: 0 4px 5px rgba(0,0,0,0.2);
 }
 
-img{
-    width: 100%;
+.flex-container img{
+    width: 100px;
     
     }
 
