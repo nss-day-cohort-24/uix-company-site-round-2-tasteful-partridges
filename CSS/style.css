@@ -134,6 +134,13 @@ ul {
 
 }
 
+
+.contact > h2 {
+    padding: 30px;
+    background-color:#BBC946;
+    box-shadow:  0 5px 5px 0 rgba(32,32,32,.65);
+}
+
 form{
     text-align:center;
     padding-bottom:10px;
@@ -144,7 +151,10 @@ form{
 input{
     margin-top:10px;
     margin-bottom:10px;
+<<<<<<< HEAD
     background-color: 
+=======
+>>>>>>> 76f1009f0208b7718471201c85d127788f07dbde
     background-color:#D9DEDE;
     color:#4B8584;
     font-family: 'Merriweather', serif;
@@ -202,17 +212,100 @@ I0B9D2 - dark blue
 8D8984 - dark gray
 D9DEDE - light gray
 BBC946 - light green
+<<<<<<< HEAD
 7A9C3D - dark green */
 
+=======
+>>>>>>> 76f1009f0208b7718471201c85d127788f07dbde
 7A9C3D - dark green
-*/
 
+7A9C3D - dark green
 7A9C3D - dark green **/
 
+
+/** Index Page **/
+
+#home-container {
+    max-width: 100%;
+    height: 100%;
+    background-image: url('/img/IDEODesk.jpg');
+}
+
 /** Cart Page **/
+/** Cart Div Style **/
+
+#cart-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 175px;
+    border: 1px solid #8D8984;
+    background-color: #D9DEDE;
+}
+
+.cartCardImg {
+    max-width:100%;
+    max-height:100%;
+}
+
+.cart-text {
+    object-fit: contain;
+    margin: 20px 10px 10px 30px;
+}
+
+
+/** Float Clearfix **/
+.clear:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/** Checkout Page **/
+
+#shipping-address {
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#checkout-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 175px;
+    border: 1px solid #8D8984;
+    background-color: #D9DEDE;
+    margin 5px;
+}
+
+.check-text {
+    float: right;
+    margin: 20px 10px 10px 30px;
+}
+
+#bill-container {
+    border-top: 1px solid #8D8984;
+    border-bottom: 1px solid #8D8984; 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 5px 0 5px 0;
+    text-align: right;
+
+}
+
+.check-money {
+    margin: 20px 10px 10px 30px;
+    float: right;
+    clear: both;
+    max-width: 100%;
+}
+
 /** Checkout Button **/
 button.css3button {
-    margin: 10px;
+    float: right;
+    clear: both;
+    margin: 50px 50px 50px 10px;
     font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: #f5f2f5;
@@ -242,6 +335,9 @@ button.css3button {
 		0px -1px 0px rgba(000,000,000,0.2),
 		0px 1px 0px rgba(153,147,153,1);
 }
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 76f1009f0208b7718471201c85d127788f07dbde
