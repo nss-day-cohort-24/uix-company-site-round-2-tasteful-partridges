@@ -236,7 +236,11 @@ BBC946 - light green
     font-size: 100px;
 }
 
-#home-container h1,h2 {
+#home-container h1 {
+    color: #79CCC9;
+}
+
+#home-container h2 {
     color: #79CCC9;
 }
 
