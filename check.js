@@ -2,7 +2,7 @@ var mobileapp = {
     name: "Mobile App - Time Management",
     description: "Time management to organize your schedule",
     price: 20.00,
-    URL: "image.jpg", //insert image
+    URL: "/img/proddetail1.png",
     tax: 1.85
 }
 
@@ -12,12 +12,18 @@ var grandTotal = "$" + (mobileapp.price + mobileapp.tax).toFixed(2);
 
 var checkoutCard = "";
 
-checkoutCard = `<div id="checkout-container">
-<img class="cartCard_img" src="${mobileapp.URL}"><br>
-<p>${mobileapp.name}<br>
+var invoice = "";
+
+checkoutCard = `<img class="cartCardImg" src="${mobileapp.URL}">
+<div class="check-text">
+<p><strong>${mobileapp.name}</strong><br>
 ${mobileapp.description}<br>
-$${mobileapp.price}<br>
-$${mobileapp.tax}<br>
-${grandTotal}</p></div>`;
+$${mobileapp.price}</p>`;
+
+invoice = `<div class="check-money"><p>Total: $${mobileapp.price}<br>
+Sales Tax: $${mobileapp.tax}<br>
+Grand Total: <strong>${grandTotal}</strong></p></div>`;
 
 document.getElementById("checkout-container").innerHTML = checkoutCard;
+
+document.getElementById("bill-container").innerHTML = invoice;

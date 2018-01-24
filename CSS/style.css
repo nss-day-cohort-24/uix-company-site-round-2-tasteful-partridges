@@ -208,17 +208,95 @@ I0B9D2 - dark blue
 8D8984 - dark gray
 D9DEDE - light gray
 BBC946 - light green
-7A9C3D - dark green */
+7A9C3D - dark green
 
 7A9C3D - dark green
-*/
-
 7A9C3D - dark green **/
 
+
+/** Index Page **/
+
+#home-container {
+    max-width: 100%;
+    height: 100%;
+    background-image: url('/img/IDEODesk.jpg');
+}
+
 /** Cart Page **/
+/** Cart Div Style **/
+
+#cart-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 175px;
+    border: 1px solid #8D8984;
+    background-color: #D9DEDE;
+}
+
+.cartCardImg {
+    max-width:100%;
+    max-height:100%;
+}
+
+.cart-text {
+    object-fit: contain;
+    margin: 20px 10px 10px 30px;
+}
+
+
+/** Float Clearfix **/
+.clear:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/** Checkout Page **/
+
+#shipping-address {
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#checkout-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 175px;
+    border: 1px solid #8D8984;
+    background-color: #D9DEDE;
+    margin 5px;
+}
+
+.check-text {
+    float: right;
+    margin: 20px 10px 10px 30px;
+}
+
+#bill-container {
+    border-top: 1px solid #8D8984;
+    border-bottom: 1px solid #8D8984; 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 5px 0 5px 0;
+    text-align: right;
+
+}
+
+.check-money {
+    margin: 20px 10px 10px 30px;
+    float: right;
+    clear: both;
+    max-width: 100%;
+}
+
 /** Checkout Button **/
 button.css3button {
-    margin: 10px;
+    float: right;
+    clear: both;
+    margin: 50px 50px 50px 10px;
     font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: #f5f2f5;

@@ -3,6 +3,7 @@ var reviews = [
     {review: "This is my Review; I'm still hopelessly addicted to this product", author: "Stephon Diggs"}
  ];
 
+
 revHtml = "";
 revTwo = ""
 
@@ -20,6 +21,7 @@ revTwo += `</p>`;
 
 document.getElementById("critic").innerHTML = revHTML;
 document.getElementById("critic2").innerHTML = revTwo;
+
 
 
 

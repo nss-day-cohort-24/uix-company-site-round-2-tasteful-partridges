@@ -1,10 +1,10 @@
 var mobileapp = {
-    name: "Mobile App - Time Management",
-    description: "Time management to organize your schedule",
+    name: "Time Management Mobile App",
+    description: "A mobile app to organize your schedule",
     price: "$20.00",
-    URL: "image.jpg" //insert image
+    URL: "/img/proddetail1.png"
 }
 
-cartCard = `<div id="cart-container"><img class="cartCard_img" src="${mobileapp.URL}"><br><p>${mobileapp.name}<br>${mobileapp.description}<br>${mobileapp.price}</p></div>`;
+cartCard = `<img class="cartCardImg" src="${mobileapp.URL}"><div class="cart-text"><p><strong>${mobileapp.name}</strong><br>${mobileapp.description}<br>${mobileapp.price}</p>`;
 
 document.getElementById("cart-container").innerHTML = cartCard;
